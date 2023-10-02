@@ -18,16 +18,16 @@
   flex: 1 100%;
 }
 
-.cabecario {
-  background:#000;
+.cabecalho {
+  background:#000000;
   text-align: justify;
 }
 
-.cabecario li{
-    list-style: nome;
+.cabecalho li{
+    list-style: none;
 
 }
-.cabecario a{
+.cabecalho a{
     color: #fff;
     text-decoration: none;
 }
@@ -110,7 +110,14 @@
 
 
 .footer {
-  background: lightgreen;
+  position: fixed;
+  bottom: 0;
+  background-color: lightgreen;
+  color: #000;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
 }
 
 .conteudo {
