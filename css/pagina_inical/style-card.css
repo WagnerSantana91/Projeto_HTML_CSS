@@ -1,0 +1,36 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden; /* Adicionamos esta propriedade para ocultar o overflow da imagem */
+  }
+  
+  .card-img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Adicionamos uma transição de 0.3 segundos */
+  }
+  
+  .card-img-container:hover .card-img-top {
+    transform: scale(1.1); /* Aplicamos um aumento de 10% no tamanho ao passar o mouse */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }

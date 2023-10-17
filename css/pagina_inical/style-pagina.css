@@ -1,0 +1,36 @@
+
+/* Estilos CSS para o layout */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticia {
+    margin-bottom: 20px;
+}
+
+.header, .footer {
+    background-color: #c90505;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+  
+
+  
