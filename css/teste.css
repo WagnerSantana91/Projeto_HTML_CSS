@@ -1,0 +1,33 @@
+.card-menores {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    overflow: hidden; /* Adicionamos esta propriedade para ocultar o overflow da imagem */
+    width: 23rem;
+  }
+
+  
+  .card-img-top-menores {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Adicionamos uma transição de 0.3 segundos */
+  }
+  
+  .card-img-top-menores:hover {
+    transform: scale(1.2); /* Aplicamos um aumento de 10% no tamanho ao passar o mouse */
+  }
+    
+  .card-body-menores {
+    padding: 5px;
+  }
+  
+  .card-title-menores {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text-menores {
+    font-size: 1rem;
+    color: #555;
+}
