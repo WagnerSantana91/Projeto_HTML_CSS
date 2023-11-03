@@ -4,16 +4,12 @@
 <head>
     <meta charset="utf-8">
 
-    <title>G1 - Portal de notícias</title> 
+    <title>G1 - Cadastro</title> 
     <meta name="description" content="SITE PARA DISCIPLINA DESV WEB">
-    <link rel="shortcut icon" href="imagens/logo-g1.ico" type="image/x-icon"> <!--logo na aba da pagina-->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- responsividade - vai se adaptar para o tamanho da tela-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> <!-- fonte do texto-->
-    <link rel="stylesheet" href="css/pagina_inical/style-navbar.css"> <!--pegando a pagina css-->
-    <link rel="stylesheet" href="css/style-cadastro.css">
+    <link rel="shortcut icon" href="assets/header-footer/logo-g1.ico" type="image/x-icon"> <!--logo na aba da pagina-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- responsividade -->
+    <link rel="stylesheet" href="styles/cadastro/style-cadastro.css"> 
+    <link rel="stylesheet" href="styles/style-header-footer.css">
 </head>
 
 <body>
@@ -22,14 +18,15 @@
         <header class="header">
 
             <nav class="navbar">
-                <img class="logo" src="imagens/logos-branco-g1.ico">
+                <img class="logo" src="assets/header-footer/logos-branco-g1.ico">
                 <button class="hamburger"></button>
+
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="index.html">Página Inicial</a>
+                        <a href="inicio.html">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a href="quemsomos.html">Quem Somos</a>
+                        <a href="sobre.html">Quem Somos</a>
                     </li>
                     <li class="nav-item">
                         <a href="faleconosco.html">Fale Conosco</a>
@@ -41,40 +38,53 @@
                         <a href="entrar.html">Entrar</a>
                     </li>
                 </ul> <!--FIM NAV-MENU-->
+
             </nav><!--FIM NAVBAR-->
 
         </header><!-- FIM HEADER-->
 
-        <article class="main">
-
-            <div class="bloco_1">
-
-                <div class="sub_bloco_1">
-        
-                    <div class="conteudo">
-                        <h2 class="">sei la</h2>
-
-                    </div><!--FIM CONTEUDO-->
-
-                </div><!--FIM SUB BLOCO 1-->
-
-            </div><!--FIM BLOCO 1-->
+    </div> <!--FIM WRAPPER-->
 
 
 
+    <article class="main">
+
+        <div class="bloco_1">
+
+            <div class="sub_bloco_1">
+    
+                <div class="conteudo">
+                    <h2 class="">TESTE</h2>
+
+                </div><!--FIM CONTEUDO-->
+
+            </div><!--FIM SUB BLOCO 1-->
+
+        </div><!--FIM BLOCO 1-->
+
+      </article><!--FIM main-->
 
 
-          </article><!--FIM main-->
+    
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <img class="logo-footer" src="assets/header-footer/logos-branco-g1.ico" alt="Logo">
+                <p class="g1">Portal de notícias</p>
+            </div>
+            <div class="right">
+                <div class="redes-sociais">
+                    <img src="assets/header-footer/instagram_icon.svg" alt="instagram">
+                    <img src="assets/header-footer/facebook_icon.svg" alt="facebook">
+                    <img src="assets/header-footer/linkedin_icon.svg" alt="linkedin">
+                    <img src="assets/header-footer/tiktok_icon.svg" alt="tiktok">
+                    <img src="assets/header-footer/youtube_icon.svg" alt="youtube">
+                </div>
+                <p class="descr">© Copyright 2000-2023 Globo Comunicação e Participações S.A.</p>
+            </div>
+        </div>
+    </footer>
 
-          
-        
-        
-        <footer class="footer">
-            
-            Rodape
-        </footer><!-- FIM - Footer-->
-
-    </div><!--FIM WRAPPER-->
     <script defer src="js/menu.js"></script> <!-- pegando o js na pasta / o "defer" faz com que o js carregue depois do css-->
 
 </body>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*banner*/
+
+.banner-top {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2%;
+}
+
+.banner-top img {
+    width: 100%; 
+    max-width: 970px; 
+    height: auto;
+}
+
+.banner-mid {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2%;
+}
+
+.banner-mid img {
+    width: 100%; 
+    max-width: 600px;
+    height: auto; 
+}
+
+@media (max-width: 1200px){
+    .banner-top img {
+        max-width: 700px;
+    }
+
+    .banner-mid img {
+        max-width: 400px;
+    }
+}
