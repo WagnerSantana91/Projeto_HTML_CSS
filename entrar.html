@@ -43,28 +43,41 @@
 
         </header><!-- FIM HEADER-->
 
+        <article class="main">
+            <div class="bloco_1">
+                <div class="sub_bloco_1">
+                    <div class="login-container">
+                        
+                        <h3 class="h3">Sua conta para tudo na Globo</h3>
+                        <img src="assets/entrar/globo_img.png" width="100%" />
+
+                        <form id="validacaoLogin">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                                <span id="emailError" class="error"></span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="login-button">Continuar</button>
+                            </div>
+                            <div class="no-account">
+                                Não tem conta? <a href="cadastro.html"> Criar conta</a>
+                            </div>
+                        </form>
+
+                        <form id="validacaoSenha" style="display: none;" action="inicio.html">
+                            <div class="form-group" id="password">
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" name="password" required>
+                                <button type="submit" class="login-button">Entrar</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+        </article>
+
     </div> <!--FIM WRAPPER-->
-
-
-
-    <article class="main">
-
-        <div class="bloco_1">
-
-            <div class="sub_bloco_1">
-    
-                <div class="conteudo">
-                    <h2 class="">TESTE</h2>
-
-                </div><!--FIM CONTEUDO-->
-
-            </div><!--FIM SUB BLOCO 1-->
-
-        </div><!--FIM BLOCO 1-->
-
-      </article><!--FIM main-->
-
-
     
     <footer>
         <div class="footer">
@@ -85,7 +98,8 @@
         </div>
     </footer>
 
-    <script defer src="js/menu.js"></script> <!-- pegando o js na pasta / o "defer" faz com que o js carregue depois do css-->
+    <script defer src="js/menu.js"></script> 
+    <script defer src="js/entrar.js"></script>
 
 </body>
 

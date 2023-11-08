@@ -1,18 +1,18 @@
+.grid-noticias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 5px;
   overflow: hidden; /* Adicionamos esta propriedade para ocultar o overflow da imagem */
-  width: 860px; 
+  width: 860px;
 }
-
-.grid-noticias {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  }
 
 .noticias-menores {
   display: flex;
@@ -206,7 +206,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 30px;
+  margin-bottom: 10rem;
 }
 
 .card-noticia-end {

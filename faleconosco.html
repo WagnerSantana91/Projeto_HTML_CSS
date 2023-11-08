@@ -3,24 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>G1 - Fale Conosco</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G1 - Fale Conosco</title>
     <meta name="description" content="SITE PARA DISCIPLINA DESV WEB">
-    <link rel="shortcut icon" href="assets/header-footer/logo-g1.ico" type="image/x-icon"> <!--logo na aba da pagina-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- responsividade -->
-    <link rel="stylesheet" href="styles/faleconosco/style-faleconosco.css"> 
+    <link rel="shortcut icon" href="assets/header-footer/logo-g1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/faleconosco/style-faleconosco.css">
     <link rel="stylesheet" href="styles/style-header-footer.css">
+    <link rel="stylesheet" href="styles/faleconosco/style-faleconosco.css">
 </head>
 
 <body>
     <div class="wrapper">
-
         <header class="header">
-
             <nav class="navbar">
                 <img class="logo" src="assets/header-footer/logos-branco-g1.ico">
                 <button class="hamburger"></button>
-
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="inicio.html">Página Inicial</a>
@@ -37,53 +34,47 @@
                     <li class="nav-item">
                         <a href="entrar.html">Entrar</a>
                     </li>
-                </ul> <!--FIM NAV-MENU-->
-
-            </nav><!--FIM NAVBAR-->
-
-        </header><!-- FIM HEADER-->
-
-    </div> <!--FIM WRAPPER-->
-
-    <article class="main">
-
-        <div class="bloco_1">
-
-            <div class="sub_bloco_1">
-    
-                <div class="conteudo">
-                    <h2 class="">TESTE</h2>
-
-                </div><!--FIM CONTEUDO-->
-
-            </div><!--FIM SUB BLOCO 1-->
-
-        </div><!--FIM BLOCO 1-->
-
-      </article><!--FIM main-->
-
-    
-    <footer>
-        <div class="footer">
-            <div class="left">
-                <img class="logo-footer" src="assets/header-footer/logos-branco-g1.ico" alt="Logo">
-                <p class="g1">Portal de notícias</p>
-            </div>
-            <div class="right">
-                <div class="redes-sociais">
-                    <img src="assets/header-footer/instagram_icon.svg" alt="instagram">
-                    <img src="assets/header-footer/facebook_icon.svg" alt="facebook">
-                    <img src="assets/header-footer/linkedin_icon.svg" alt="linkedin">
-                    <img src="assets/header-footer/tiktok_icon.svg" alt="tiktok">
-                    <img src="assets/header-footer/youtube_icon.svg" alt="youtube">
-                </div>
-                <p class="descr">© Copyright 2000-2023 Globo Comunicação e Participações S.A.</p>
-            </div>
+                </ul>
+            </nav>
+        </header>
+        <div class="contato">
+            <section class="centered-section">
+                <h2>Contato</h2>
+                <form action="https://formsubmit.co/siteg1noticias@gmail.com" method="post">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                </form>
+            </section>
         </div>
-    </footer>
 
-    <script defer src="js/menu.js"></script> <!-- pegando o js na pasta / o "defer" faz com que o js carregue depois do css-->
+    </div>
 
+        <footer>
+            <div class="footer">
+                <div class="left">
+                    <img class="logo-footer" src="assets/header-footer/logos-branco-g1.ico" alt="Logo">
+                    <p class="g1">Portal de notícias</p>
+                </div>
+                <div class="right">
+                    <div class="redes-sociais">
+                        <img src="assets/header-footer/instagram_icon.svg" alt="instagram">
+                        <img src="assets/header-footer/facebook_icon.svg" alt="facebook">
+                        <img src="assets/header-footer/linkedin_icon.svg" alt="linkedin">
+                        <img src="assets/header-footer/tiktok_icon.svg" alt="tiktok">
+                        <img src="assets/header-footer/youtube_icon.svg" alt="youtube">
+                    </div>
+                    <p class="descr">© Copyright 2000-2023 Globo Comunicação e Participações S.A.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script defer src="js/menu.js"></script>
 </body>
-
 </html>

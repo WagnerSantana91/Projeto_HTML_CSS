@@ -6,6 +6,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html, body{
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -110px;
+}
+
 header{ /*estilizção do cabeçalho*/
     background-color: #c90505;
     padding-inline: 16px;
@@ -13,10 +22,10 @@ header{ /*estilizção do cabeçalho*/
 
 .navbar{
     max-width: 1280px;
-    height: 70px;
+    height: 80px;
     margin-inline: auto;
     display: flex;
-    justify-content: space-between; /*espaçamento entre a logo e a lista*/
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -32,11 +41,11 @@ header{ /*estilizção do cabeçalho*/
 
 .nav-menu a{
     color: #FFFF;
-    font-size: 20px; /* tamanho da fonte*/
+    font-size: 20px; 
     padding-block: 16px;
-    font-weight: 400; /*espessura da fonte*/
-    text-decoration: none;  /*tira o sublinhado do link*/
-    transition: color 0.2s; /* faz com que a cor do texto mude ao passar o mouse para a cor padrão*/
+    font-weight: 400; 
+    text-decoration: none;  
+    transition: color 0.2s; 
 }
 
 .nav-menu a:hover{ /*transição para mudar a cor*/
@@ -68,7 +77,7 @@ header{ /*estilizção do cabeçalho*/
 @media (max-width: 800px){  /* colocando o botão menu só para tela de celualr*/
     .hamburger{
         display: block;
-        z-index: 1;  /*sobreposição*/
+        z-index: 1;  
     }
 
     .nav-menu{
@@ -86,7 +95,7 @@ header{ /*estilizção do cabeçalho*/
         gap: 0;
         pointer-events: none;
     }
-
+    
     .nav-menu a{
         font-size: 25px;
         opacity: 0;
@@ -140,21 +149,20 @@ header{ /*estilizção do cabeçalho*/
 }
 
 
-
-
 /*rodapé*/
 
 footer{
     background-color: #c90505;
     width: 100%;
     color: #fff;
+    bottom: 0;
 }
 
 .footer{
     display: flex;
-    padding: 25px 30px;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 0;
 }
 
 .logo-footer{
@@ -168,7 +176,7 @@ footer{
 
 .g1{
     font-size: 17px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .redes-sociais{
@@ -184,8 +192,9 @@ footer{
 }
 
 .descr{
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 13px;
+    margin-right: 20px;
 }
 
 @media (max-width: 800px){

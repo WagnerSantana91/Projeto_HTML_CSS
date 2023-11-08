@@ -1,0 +1,83 @@
+.container{
+    background-color: rgb(242, 243, 243);
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.header-cadastro{
+    border-radius: 15px;
+}
+
+.card-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+.header-cadastro{
+    background: #c90505;
+    padding: 24px;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+.form{
+    padding: 18px;
+
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+
+}
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #0669de;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.form-content.error input{
+    border-color: #ff3b25;
+}
+
+.form-content.error a{
+    color: #ff3b25;
+    visibility: visible;
+}

@@ -6,8 +6,8 @@
 
     <title>G1 - Cadastro</title> 
     <meta name="description" content="SITE PARA DISCIPLINA DESV WEB">
-    <link rel="shortcut icon" href="assets/header-footer/logo-g1.ico" type="image/x-icon"> <!--logo na aba da pagina-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- responsividade -->
+    <link rel="shortcut icon" href="assets/header-footer/logo-g1.ico" type="image/x-icon"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="styles/cadastro/style-cadastro.css"> 
     <link rel="stylesheet" href="styles/style-header-footer.css">
 </head>
@@ -43,28 +43,52 @@
 
         </header><!-- FIM HEADER-->
 
-    </div> <!--FIM WRAPPER-->
+        <article class="main">
 
-
-
-    <article class="main">
-
-        <div class="bloco_1">
-
-            <div class="sub_bloco_1">
+            <article class="main">
+                
+                <div class="card-cadastro">
+                    <div class="container">
+                        <section class="header-cadastro">
+                            <h2>Nova Conta</h2>
+                        </section>
     
-                <div class="conteudo">
-                    <h2 class="">TESTE</h2>
+                        <form id="form" class="form">
+                            <div class="form-content">
+                                <label for="username">Nome do Usuário</label>
+                                <input type="text" id="username" placeholder="Digite o nome do usuário"/>
+                                <a>Aqui vai a mensa de erro</a>
+                            </div>
+    
+                            <div class="form-content">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Digite o seu email"/>
+                                <a>Aqui vai a mensa de erro</a>
+                            </div>
+    
+                            <div class="form-content">
+                                <label for="password">Senha</label>
+                            <input type="password" id="password" placeholder="Digite sua senha"/>
+                            <a>Aqui vai a mensa de erro</a>
+                        </div>
+    
+                        <div class="form-content">
+                            <label for="password-confirmation">Confirmação de Senha</label>
+                        <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente"/>
+                        <a>Aqui vai a mensa de erro</a>
+                            </div>
+    
+                            <button type="submit">Cadastrar</button>
+                        </form>
+                    </div>
+                 </div>
+    
+    
+            </article><!--FIM main-->
+    
+    
 
-                </div><!--FIM CONTEUDO-->
-
-            </div><!--FIM SUB BLOCO 1-->
-
-        </div><!--FIM BLOCO 1-->
-
-      </article><!--FIM main-->
-
-
+    </div> <!--FIM WRAPPER-->
     
     <footer>
         <div class="footer">
@@ -85,7 +109,8 @@
         </div>
     </footer>
 
-    <script defer src="js/menu.js"></script> <!-- pegando o js na pasta / o "defer" faz com que o js carregue depois do css-->
+    <script defer src="js/menu.js"></script> 
+    <script defer src="js/cadastro.js"></script>
 
 </body>
 
