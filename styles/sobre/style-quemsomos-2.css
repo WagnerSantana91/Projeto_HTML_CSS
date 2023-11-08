@@ -1,0 +1,42 @@
+.main{
+    margin-top: 15px;
+    margin-bottom: 10rem;
+}
+
+.titulo{
+    font-size: 40px;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center; 
+    text-align: center;
+    font-weight: 700;
+}
+
+.desc{
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    color: rgb(77, 77, 77); 
+    margin-top: 20px;
+    padding: 0% 25% 0% 25%;
+    font-weight: 500;
+}
+
+.pagina{
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700
+}
+
+.nome{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 400;
+}

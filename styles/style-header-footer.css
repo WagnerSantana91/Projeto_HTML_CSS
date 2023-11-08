@@ -77,10 +77,11 @@ header{ /*estilizção do cabeçalho*/
 @media (max-width: 800px){  /* colocando o botão menu só para tela de celualr*/
     .hamburger{
         display: block;
-        z-index: 1;  
+        z-index: 3;  
     }
 
     .nav-menu{
+        z-index: 2;
         position: fixed;
         top: 0;
         left: 0;
@@ -152,10 +153,11 @@ header{ /*estilizção do cabeçalho*/
 /*rodapé*/
 
 footer{
+    z-index: 1;
     background-color: #c90505;
     width: 100%;
     color: #fff;
-    bottom: 0;
+    bottom: 0; 
 }
 
 .footer{
